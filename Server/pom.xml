@@ -25,14 +25,14 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>run-client</id>
+                        <id>run-server</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>fr.scumbag.server.EchoServer</mainClass>
+                    <mainClass>fr.scumbag.server.Http2Server</mainClass>
                     <arguments>
                         <argument>${echo-server.port}</argument>
                     </arguments>

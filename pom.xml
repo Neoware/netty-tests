@@ -12,7 +12,7 @@
     <properties>
         <netty.version>4.1.16.Final</netty.version>
         <echo-server.hostname>localhost</echo-server.hostname>
-        <echo-server.port>8888</echo-server.port>
+        <echo-server.port>8080</echo-server.port>
     </properties>
 
     <modules>
